@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		36FACF692DC8B68F7F71ED65 /* libPods-ToolBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C6045B5E32A263D1C02A11 /* libPods-ToolBox.a */; };
+		54728A7F214212D0007668E8 /* TLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54728A78214212CF007668E8 /* TLBaseViewController.m */; };
+		54728A80214212D0007668E8 /* TLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54728A79214212CF007668E8 /* TLBaseNavigationController.m */; };
+		54728A81214212D0007668E8 /* TLBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54728A7B214212CF007668E8 /* TLBaseTableViewCell.m */; };
+		54728A8421421305007668E8 /* TLBaseBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54728A8321421305007668E8 /* TLBaseBarButtonItem.m */; };
+		54728A8A21421405007668E8 /* TLStringKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54728A8921421404007668E8 /* TLStringKit.m */; };
+		54728A9721422F57007668E8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54728A9621422F57007668E8 /* ViewController2.swift */; };
+		54728A9921422FA6007668E8 /* EFQRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54728A9821422FA6007668E8 /* EFQRCode.framework */; };
+		54728A9A21422FA6007668E8 /* EFQRCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54728A9821422FA6007668E8 /* EFQRCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		54F4FE5221420956002D884C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4FE5121420956002D884C /* AppDelegate.m */; };
 		54F4FE5521420956002D884C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4FE5421420956002D884C /* ViewController.m */; };
 		54F4FE5821420956002D884C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F4FE5621420956002D884C /* Main.storyboard */; };
@@ -16,8 +24,37 @@
 		54F4FE6021420959002D884C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4FE5F21420959002D884C /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		54728A9221422DD7007668E8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				54728A9A21422FA6007668E8 /* EFQRCode.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		27C6045B5E32A263D1C02A11 /* libPods-ToolBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToolBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54728A78214212CF007668E8 /* TLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBaseViewController.m; sourceTree = "<group>"; };
+		54728A79214212CF007668E8 /* TLBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBaseNavigationController.m; sourceTree = "<group>"; };
+		54728A7A214212CF007668E8 /* TLBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBaseTableViewCell.h; sourceTree = "<group>"; };
+		54728A7B214212CF007668E8 /* TLBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBaseTableViewCell.m; sourceTree = "<group>"; };
+		54728A7C214212CF007668E8 /* TLBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBaseNavigationController.h; sourceTree = "<group>"; };
+		54728A7D214212D0007668E8 /* TLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBaseViewController.h; sourceTree = "<group>"; };
+		54728A8221421305007668E8 /* TLBaseBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBaseBarButtonItem.h; sourceTree = "<group>"; };
+		54728A8321421305007668E8 /* TLBaseBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBaseBarButtonItem.m; sourceTree = "<group>"; };
+		54728A8521421379007668E8 /* TLThemeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLThemeDefine.h; sourceTree = "<group>"; };
+		54728A862142137A007668E8 /* TLMacroUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMacroUtility.h; sourceTree = "<group>"; };
+		54728A8821421404007668E8 /* TLStringKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLStringKit.h; sourceTree = "<group>"; };
+		54728A8921421404007668E8 /* TLStringKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLStringKit.m; sourceTree = "<group>"; };
+		54728A9321422E3E007668E8 /* ToolBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToolBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		54728A9621422F57007668E8 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		54728A9821422FA6007668E8 /* EFQRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EFQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F4FE4D21420956002D884C /* ToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F4FE5021420956002D884C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54F4FE5121420956002D884C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36FACF692DC8B68F7F71ED65 /* libPods-ToolBox.a in Frameworks */,
+				54728A9921422FA6007668E8 /* EFQRCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +90,81 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		54728A72214212CF007668E8 /* Single */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		54728A73214212CF007668E8 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				54728A8521421379007668E8 /* TLThemeDefine.h */,
+				54728A862142137A007668E8 /* TLMacroUtility.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		54728A74214212CF007668E8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				54728A8721421404007668E8 /* DYStringKit */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		54728A75214212CF007668E8 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		54728A76214212CF007668E8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		54728A77214212CF007668E8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				54728A8221421305007668E8 /* TLBaseBarButtonItem.h */,
+				54728A8321421305007668E8 /* TLBaseBarButtonItem.m */,
+				54728A7D214212D0007668E8 /* TLBaseViewController.h */,
+				54728A78214212CF007668E8 /* TLBaseViewController.m */,
+				54728A7C214212CF007668E8 /* TLBaseNavigationController.h */,
+				54728A79214212CF007668E8 /* TLBaseNavigationController.m */,
+				54728A7A214212CF007668E8 /* TLBaseTableViewCell.h */,
+				54728A7B214212CF007668E8 /* TLBaseTableViewCell.m */,
+				54728A9321422E3E007668E8 /* ToolBox-Bridging-Header.h */,
+				54728A9621422F57007668E8 /* ViewController2.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		54728A7E214212D0007668E8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		54728A8721421404007668E8 /* DYStringKit */ = {
+			isa = PBXGroup;
+			children = (
+				54728A8821421404007668E8 /* TLStringKit.h */,
+				54728A8921421404007668E8 /* TLStringKit.m */,
+			);
+			path = DYStringKit;
+			sourceTree = "<group>";
+		};
 		54F4FE4421420956002D884C = {
 			isa = PBXGroup;
 			children = (
+				54728A9821422FA6007668E8 /* EFQRCode.framework */,
 				54F4FE4F21420956002D884C /* ToolBox */,
 				54F4FE4E21420956002D884C /* Products */,
 				FBA38BB9CC6CE58A1528656E /* Pods */,
@@ -73,6 +183,13 @@
 		54F4FE4F21420956002D884C /* ToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				54728A77214212CF007668E8 /* Base */,
+				54728A7E214212D0007668E8 /* Category */,
+				54728A73214212CF007668E8 /* Define */,
+				54728A75214212CF007668E8 /* Libs */,
+				54728A76214212CF007668E8 /* Main */,
+				54728A72214212CF007668E8 /* Single */,
+				54728A74214212CF007668E8 /* Utils */,
 				54F4FE5021420956002D884C /* AppDelegate.h */,
 				54F4FE5121420956002D884C /* AppDelegate.m */,
 				54F4FE5321420956002D884C /* ViewController.h */,
@@ -106,6 +223,7 @@
 				54F4FE4921420956002D884C /* Sources */,
 				54F4FE4A21420956002D884C /* Frameworks */,
 				54F4FE4B21420956002D884C /* Resources */,
+				54728A9221422DD7007668E8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +245,7 @@
 				TargetAttributes = {
 					54F4FE4C21420956002D884C = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -187,9 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54728A8421421305007668E8 /* TLBaseBarButtonItem.m in Sources */,
 				54F4FE5521420956002D884C /* ViewController.m in Sources */,
+				54728A9721422F57007668E8 /* ViewController2.swift in Sources */,
+				54728A7F214212D0007668E8 /* TLBaseViewController.m in Sources */,
 				54F4FE6021420959002D884C /* main.m in Sources */,
+				54728A8A21421405007668E8 /* TLStringKit.m in Sources */,
 				54F4FE5221420956002D884C /* AppDelegate.m in Sources */,
+				54728A80214212D0007668E8 /* TLBaseNavigationController.m in Sources */,
+				54728A81214212D0007668E8 /* TLBaseTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +455,9 @@
 			baseConfigurationReference = FE046986F2C2A599D6D8B393 /* Pods-ToolBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = AF8F677DE2;
 				INFOPLIST_FILE = ToolBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -340,6 +467,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dianyou.toolbox.ToolBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ToolBox/Base/ToolBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -349,7 +479,9 @@
 			baseConfigurationReference = 9F63D9CBB3423514CDC9932E /* Pods-ToolBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = AF8F677DE2;
 				INFOPLIST_FILE = ToolBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -359,6 +491,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dianyou.toolbox.ToolBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ToolBox/Base/ToolBox-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
