@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "TLBaseViewController.h"
+@interface ViewController : TLBaseViewController
 
 
 @end
